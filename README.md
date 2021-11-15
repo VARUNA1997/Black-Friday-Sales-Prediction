@@ -10,3 +10,24 @@ Heatmap is used for determining the correlation between dataset attributes. The 
 ![image](https://user-images.githubusercontent.com/89696170/138823925-b8540533-87dd-4f0c-be51-7cd121a5cbe7.png)
 
 Heatmap color encoded matrix can be described as lower the intensity of the color of an attribute related to the target variable, higher is the dependency of target and attribute variables.
+
+### RESULTS & DISCUSSION
+#### 1.Linear Regression
+Linear Regression is one of the supervised machine learning algorithms . A regression problem can be stated as a case when the output variable is continuous . Linear regression predicts a dependent variable (y) based on a given independent variable (x). The model depicts a linear relation among the variables.
+
+#### 2.Lasso Regression and Ridge Regression
+Lasso Regression provides both variable selection and regularization . It makes use of soft thresholding. Only a subset of the covariates provided is select for use in the final model in the case of Lasso regression
+Multiple regression data can be analyzed using Ridge Regression . Least Square estimates are unbiased when multicollinearity occurs. Based on the degree of bias it reduces the standard errors that is added to the regression estimates.
+
+#### 3.Decision Tree Regressor
+The Decision Tree model builds a tree-like structure for regression or classification models . The dataset is simply broken down into smaller subsets. In a DT the control statements or values are a basis for branching, and the splitting node contains data points on either side, depending on the value of a specific attribute. The attribute selection measure plays an important role in root node selection.
+
+#### 4.RandomForest Regressor
+Random Forest being an ensemble technique is capable of both tasks namely regression and classification. The Random Forest is based on the ideology of combining multiple DT rather than single DT dependency.
+
+### Comparitive Analysis
+Model                              Mse
+Linear Regression
+Lasso and Ridge Regression
+DecisionTree Regressor
+RandomForest Regressor

@@ -25,9 +25,4 @@ The Decision Tree model builds a tree-like structure for regression or classific
 #### 4.RandomForest Regressor
 Random Forest being an ensemble technique is capable of both tasks namely regression and classification. The Random Forest is based on the ideology of combining multiple DT rather than single DT dependency.
 
-### Comparitive Analysis
-Model                              Mse
-Linear Regression
-Lasso and Ridge Regression
-DecisionTree Regressor
-RandomForest Regressor
+
